@@ -26,7 +26,7 @@ body {
   flex-direction: column;
 }
 
-main {
+.MainPrincipal {
   margin-top: 122px;
   margin-left: 250px;
   flex: 1;
@@ -197,7 +197,6 @@ section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 10px;
-  justify-items: center;
   padding: 20px;
 }
 
@@ -260,4 +259,270 @@ footer {
 
 .ColumnasFooter a:hover {
   color: white;
+}
+
+.Durin {
+  background-color:#121038;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 1.5rem;
+}  
+
+.ImagenesLayoutFiveStar{
+  max-width: 200px;
+  background-color: goldenrod;
+
+  position: relative;
+  transform: translate(20px, 145px);
+  border-radius: 15px;
+}
+
+.ImagenesLayoutFiveStar img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0, auto;
+  border-radius: 15px;
+}
+
+.Lore {
+  max-width: 160px;
+  background-color: rgb(18, 21, 75);
+
+  position: relative;
+  transform: translate(20px, 160px);
+  height: 375px;
+  display: block;
+
+  border-radius: 15px;
+  border-color: aquamarine;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.TextoLore {
+  font-size: large;
+  color: white;
+  margin-top: 0;
+}
+
+.InfoElemento {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 5rem;
+
+  position: relative;
+  transform: translate(10px, 5px);
+}
+
+.InfoArma {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 5rem;
+  
+  position: relative;
+  transform: translate(-83px, 60px);
+}
+
+.InfoConstelacion {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 8rem;
+  margin-left: 2rem;
+  
+  position: relative;
+  transform: translate(-65px, 30px);  
+}
+
+.InfoFaccion {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 35rem;
+  
+  position: relative;
+  transform: translate(0px, 6px);  
+}
+
+.InfoDominio {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 35rem;
+  
+  position: relative;
+  transform: translate(362.5px, 20px);  
+}  
+
+.TextoInfo {
+  font-size: large;
+  color: white;
+  margin: 0;
+  padding: 0.2rem;
+}
+
+
+.InfoPersonaje {
+  max-width: 1000px;
+  background-color: rgb(18 16 56);
+  text-align: left;
+
+  position: relative;
+  transform: translate(270px, -536px);
+  height: 100px;
+  display: block;
+
+  border-radius: 15px;
+  border-color: aquamarine;
+  border-width: 1px;
+  border-style: solid; 
+}
+
+.Equipos {
+  max-width: 1000px;
+  height: 453px;
+  background-color: rgb(18 16 56);
+  color: white;
+  
+  border-radius: 15px;
+  border: 1px solid aquamarine;
+
+  margin: -540px 0 0 270px;
+}
+
+.Formacion1 {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 60.5rem;
+  height: 4rem;
+  
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+}
+
+.Formacion2 {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 60.5rem;
+  height: 4rem;
+  
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+
+  position: relative;
+  margin-top: 6rem;
+  margin-left: -64.8rem;
+}
+
+.Formacion3 {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 60.5rem;
+  height: 4rem;
+  
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+
+  position: relative;
+  margin-top: 12rem;
+  margin-left: -65.4rem;
+}
+
+.Formacion4 {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 60.5rem;
+  height: 4rem;
+  
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+
+  position: relative;
+  margin-top: 18rem;
+  margin-left: -66rem;
+}
+
+.Formacion5 {
+  display: inline-block;
+  padding: 5px 5px;
+  background-color: rgb(18, 21, 75);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 60.5rem;
+  height: 4rem;
+  
+  position: relative;
+  margin-top: 24rem;
+  margin-left: -66.7rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+}
+
+.PJCirculo {
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  border-style: solid;
+  border-color: aquamarine;
+  margin-bottom: 5px;
+  border-width: 1px;
 }
