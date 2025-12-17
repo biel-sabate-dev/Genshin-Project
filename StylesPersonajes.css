@@ -235,6 +235,7 @@ nav {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  border: 1px solid aquamarine;
 }
 
 .BuildSectionArtefactos {
@@ -268,6 +269,7 @@ nav {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  border: 1px solid aquamarine;
 }
 
 .BuildSectionEstadisticas {
@@ -298,6 +300,7 @@ nav {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  border: 1px solid aquamarine;  
 }
 
 .BuildSectionTalentos {
@@ -326,4 +329,72 @@ nav {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  border: 1px solid aquamarine;  
+}
+
+.Footer {
+  background-color: #12154b;
+  height: 25vh;
+}
+
+.Xarxes {
+  background-color: #121038;
+  position: relative;
+  top: 7.5%;
+  left: 5%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Xarxes div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.social-item {
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.social-item img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.Politiques {
+  background-color: #121038;
+  position: relative;
+  top: -77%;
+  left: 37%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Politiques div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.Formularis {
+  background-color: #121038;
+  position: relative;
+  top: -162%;
+  left: 69%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
 }
