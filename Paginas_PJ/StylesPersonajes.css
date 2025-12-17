@@ -1,0 +1,424 @@
+/* ---------- RESET BÁSICO ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- BODY ---------- */
+body {
+  background-color: #0e0d2b;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #121038;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.Logo img {
+  width: 180px;
+}
+
+.ElementosHeader {
+  width: 3vw;
+  height: auto;
+  min-width: 30px;
+}
+
+.ElementosContainer {
+  display: flex;
+  gap: 2vw;
+  margin-left: 140px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/* ---------- NAV ---------- */
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.NavBar {
+  background-color: #12154b;
+  padding: 8px 14px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* ---------- MAIN ---------- */
+.Durin {
+  margin-top: 5.3%;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #121038;
+  position: relative;
+}
+
+/* ---------- INDEPENDENT CHARACTER IMAGE SECTION ---------- */
+.CharacterImageSection {
+  position: absolute;
+  top: 5.3%;
+  left: 2rem;
+  width: 220px;
+  z-index: 5;
+}
+
+/* ---------- IMAGEN ---------- */
+.ImagenesLayoutFiveStar {
+  background-color: goldenrod;
+  border-radius: 15px;
+}
+
+.ImagenesLayoutFiveStar img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.ImagenesLayoutFourStar {
+  background-color: violet;
+  border-radius: 15px;
+}
+
+.ImagenesLayoutFourStar img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+/* ---------- INDEPENDENT LORE SECTION ---------- */
+.LoreSection {
+  position: absolute;
+  top: 33%;
+  left: 2rem;
+  width: 220px;
+  z-index: 5;
+}
+
+/* ---------- LORE ---------- */
+.Lore {
+  background-color: #12154b;
+  border: 1px solid aquamarine;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1rem;
+  min-height: 350px;
+  box-sizing: border-box;
+}
+
+/* ---------- INFO PERSONAJE ---------- */
+.InfoPersonaje {
+  position: absolute;
+  top: 3.2rem;
+  left: 40%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid aquamarine;
+  border-radius: 15px;
+  max-width: 900px;
+  width: calc(100% - 4rem);
+  background-color: #121038;
+  z-index: 10;
+}
+
+.InfoElemento,
+.InfoArma,
+.InfoConstelacion,
+.InfoFaccion,
+.InfoDominio {
+  background-color: #12154b;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* ---------- INDEPENDENT EQUIPOS SECTION ---------- */
+.EquiposSection {
+  position: absolute;
+  top: 17.5%;
+  left: 16.6%;
+  right: 2rem;
+  max-width: 900px;
+  width: calc(100% - 4rem);
+  z-index: 5;
+}
+
+/* ---------- EQUIPOS ---------- */
+.Equipos {
+  padding: 1.5rem;
+  border: 1px solid aquamarine;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #121038;
+}
+
+.Formacion1,
+.Formacion2,
+.Formacion3,
+.Formacion4,
+.Formacion5 {
+  background-color: #12154b;
+  min-height: 4rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 0.5rem;
+}
+
+.PJCirculo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid aquamarine;
+  flex-shrink: 0;
+}
+
+.VideoSection {
+  position: absolute;
+  top: 4.7%;
+  left: 68%;
+  right: 2rem;
+  max-width: 550px;
+  width: calc(100% - 4rem);
+  z-index: 5;
+  border: 1px solid aquamarine;
+}
+
+.BuildSectionArmas {
+  position: absolute;
+  top: 37%;
+  left: 68%;
+  right: 2rem;
+  max-width: 550px;
+  width: calc(100% - 4rem);
+  height: 10vh;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: center;
+}
+
+.BuildArma1,
+.BuildArma2,
+.BuildArma3,
+.BuildArma4,
+.BuildArma5,
+.BuildArma6 {
+  background-color: #12154b;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 160px;
+  min-width: 160px;
+  min-height: 40px;
+  max-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid aquamarine;
+}
+
+.BuildSectionArtefactos {
+  position: absolute;
+  top: 46.5%;
+  left: 69.8%;
+  right: 2rem;
+  max-width: 135px;
+  width: calc(100% - 4rem);
+  height: 25vh;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: center;  
+}
+
+.BuildArtefacto1,
+.BuildArtefacto2,
+.BuildArtefacto3,
+.BuildArtefacto4,
+.BuildArtefacto5,
+.BuildArtefacto6 {
+  background-color: #12154b;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 35px;
+  max-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid aquamarine;
+}
+
+.BuildSectionEstadisticas {
+  position: absolute;
+  top: 47%;
+  left: 82%;
+  right: 2rem;
+  max-width: 100px;
+  width: calc(100% - 4rem);
+  height: 24.5vh;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  justify-items: center;
+}
+
+.BuildReloj,
+.BuildCáliz,
+.BuildTiara {
+  background-color: #12154b;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 60px;
+  max-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid aquamarine;  
+}
+
+.BuildSectionTalentos {
+  position: absolute;
+  top: 47%;
+  left: 91%;
+  right: 2rem;
+  max-width: 100px;
+  width: calc(100% - 1rem);
+  height: 25vh;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  justify-items: center;
+}
+
+.BuildPrioridad {
+  background-color: #12154b;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid aquamarine;  
+}
+
+.Footer {
+  background-color: #12154b;
+  height: 25vh;
+}
+
+.Xarxes {
+  background-color: #121038;
+  position: relative;
+  top: 7.5%;
+  left: 5%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Xarxes div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.social-item {
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.social-item img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.Politiques {
+  background-color: #121038;
+  position: relative;
+  top: -77%;
+  left: 37%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Politiques div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.Formularis {
+  background-color: #121038;
+  position: relative;
+  top: -162%;
+  left: 69%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Formularis div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none
+}
