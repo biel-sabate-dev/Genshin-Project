@@ -258,8 +258,6 @@ aside {
 main {
   margin-left: 13%;
   padding-top: 140px;
-
-  padding-bottom: 47vh; /* 👈 MÁS GRANDE que el footer */
 }
 
 section.Personajes {
@@ -272,12 +270,23 @@ section.Personajes {
 
   justify-items: center;
 
-  grid-auto-flow: row dense; /* 👈 ESTO ES LO QUE FALTABA */
+  grid-auto-flow: row dense; /
 }
 
-section.Personajes img {
+section.Personajes {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+
+  justify-items: center;
+  grid-auto-flow: row dense; /* esencial para reordenar */
+}
+
+section.Personajes::after {
+  content: "";
   display: block;
-  margin-left: 0 !important;
+  height: 47vh; /* empuja el footer hacia abajo */
+  grid-column: 1 / -1; /* ocupa todo el ancho del grid */
 }
 
 /* ---------- PERSONAJES ---------- */

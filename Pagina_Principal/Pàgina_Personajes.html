@@ -219,7 +219,7 @@
     </main>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-    const personajes = document.querySelectorAll("section.Personajes img");
+    const personajes = document.querySelectorAll("section.Personajes > *");
 
     const filtros = {
         arma: [],
@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const cumpleRareza = filtros.rareza.length === 0 || filtros.rareza.some(f => personaje.classList.contains(f));
             const cumpleElemento = filtros.elemento.length === 0 || filtros.elemento.some(f => personaje.classList.contains(f));
 
-            personaje.style.display = (cumpleArma && cumpleRareza && cumpleElemento) ? "block" : "none";
+            personaje.style.display = (cumpleArma && cumpleRareza && cumpleElemento) ? "" : "none";
         });
     }
 
