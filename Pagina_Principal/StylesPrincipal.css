@@ -265,28 +265,16 @@ section.Personajes {
   grid-template-columns: repeat(12, 1fr);
   gap: 12px;
 
-  padding: 20px;
-  background-color: rgb(18 16 56);
-
   justify-items: center;
-
-  grid-auto-flow: row dense; /
+  grid-auto-flow: row dense;
 }
 
-section.Personajes {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 12px;
-
-  justify-items: center;
-  grid-auto-flow: row dense; /* esencial para reordenar */
-}
 
 section.Personajes::after {
   content: "";
   display: block;
-  height: 47vh; /* empuja el footer hacia abajo */
-  grid-column: 1 / -1; /* ocupa todo el ancho del grid */
+  height: 47vh;
+  grid-column: 1 / -1;
 }
 
 /* ---------- PERSONAJES ---------- */
