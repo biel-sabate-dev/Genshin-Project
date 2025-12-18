@@ -1,0 +1,299 @@
+/*Estilos generales y Header/Navbar*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0e0d2b;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #121038;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.Logo img {
+  width: 180px;
+}
+
+.ElementosHeader {
+  width: 3vw;
+  height: auto;
+  min-width: 30px;
+}
+
+.ElementosContainer {
+  display: flex;
+  gap: 2vw;
+  margin-left: 140px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.NavBar {
+  background-color: #12154b;
+  padding: 8px 14px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none
+}
+
+/*Aside con Filtro*/
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(18 16 56);
+  width: 13%; 
+  height: 75%;
+}
+
+.filtro {
+  margin-left: 7.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: aqua;
+  position: absolute;
+  top: 20%;
+  width: 85%;
+  height: 75%;
+}
+
+.FArmas{
+  padding: 2%;
+  margin-left: 7%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: aqua;
+  position: absolute;
+  top: 2%;
+  width: 86%;
+  height: 37.5%;
+  text-align: center;
+}
+
+.FRareza{
+  margin-left: 7%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: aqua;
+  position: absolute;
+  top: 40%;
+  width: 86%;
+  height: 20%;
+  text-align: center;
+}
+
+.FElemento{
+  margin-left: 7%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: aqua;
+  position: absolute;
+  top: 60.5%;
+  width: 86%;
+  height: 37%;
+  text-align: center;
+}
+
+/*Botones del Filtro*/
+.BotonFiltroArmas {
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 1%;
+    background-color: rgb(18, 21, 75);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 0.15%;
+    user-select: none;
+    text-align: center;
+    width: 67.5%;  
+}
+
+.BotonFiltroRareza {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(18, 21, 75);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 6% 0% 0% 0%;
+    user-select: none;
+    text-align: center;  
+}
+
+.BotonFiltroElemento {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(18, 21, 75);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    height: 12%;
+    width: 65%;
+    margin-top: 2.25%;
+
+}
+
+/* Estado activo de botones */
+.BotonFiltroArmas.active,
+.BotonFiltroRareza.active,
+.BotonFiltroElemento.active {
+    background-color:aqua;
+    color: black;
+}
+
+/*Footer*/
+.Footer {
+  background-color: #12154b;
+  height: 25vh;
+}
+
+.Xarxes {
+  background-color: #121038;
+  position: relative;
+  top: 7.5%;
+  left: 5%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Xarxes div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.social-item {
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.social-item img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.Politiques {
+  background-color: #121038;
+  position: relative;
+  top: -77%;
+  left: 37%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Politiques div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.Formularis {
+  background-color: #121038;
+  position: relative;
+  top: -162%;
+  left: 69%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Formularis div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+/*Main Principal con todos los Personajes*/
+main {
+  margin-left: 13%;
+  padding-top: 140px;
+
+  padding-bottom: 47vh; /* 👈 MÁS GRANDE que el footer */
+}
+
+section.Personajes {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+
+  padding: 20px;
+  background-color: rgb(18 16 56);
+
+  justify-items: center;
+
+  grid-auto-flow: row dense; /* 👈 ESTO ES LO QUE FALTABA */
+}
+
+section.Personajes img {
+  display: block;
+  margin-left: 0 !important;
+}
+
+/* ---------- PERSONAJES ---------- */
+.star5,
+.star4 {
+  width: 100%;
+  max-width: 105px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.star5 {
+  background-color: goldenrod;
+}
+
+.star4 {
+  background-color: violet;
+}
