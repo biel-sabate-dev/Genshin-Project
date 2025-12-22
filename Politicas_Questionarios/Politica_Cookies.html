@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Política de Privacitat</title>
+    <link rel="stylesheet" href="StylesCookies.css">
+</head>
+<body>
+
+    <!--Header con elementos decorativos y Navbar-->
+<header>
+  <div class="Logo">
+    <img src="/Personajes/Paimon.webp">
+  </div>
+
+  <div class="ElementosContainer">
+    <img class="ElementosHeader" src="/Personajes/Pyro.png">
+    <img class="ElementosHeader" src="/Personajes/Hydro.webp">
+    <img class="ElementosHeader" src="/Personajes/Anemo.webp">
+    <img class="ElementosHeader" src="/Personajes/Electro.png">
+    <img class="ElementosHeader" src="/Personajes/Dendro.webp">
+    <img class="ElementosHeader" src="/Personajes/Cryo.webp">
+    <img class="ElementosHeader" src="/Personajes/Geo.webp">
+  </div>
+
+  <!--NavBar a las 6 paginas prinicpales-->
+  <nav>
+    <a href="/Pagina_Principal/Pàgina_Personajes.html" class="NavBar">Personajes</a>
+    <a href="/Paginas_Build/Pagina_Builds.html" class="NavBar">Builds</a>
+    <a href="/Paginas_Equipos/Pagina_Equipos.html" class="NavBar">Equipos</a>
+    <a href="/Politicas_Questionarios/Politica_Privadesa.html" class="NavBar">P. Privacitat</a>
+    <a href="/Politicas_Questionarios/Politica_Cookies.html" class="NavBar">P. Cookies</a>
+    <a href="/Politicas_Questionarios/Formulari_Contacte.html" class="NavBar">Contactar</a>
+  </nav>
+</header>
+
+    <main>
+    <div class="content">
+        <h1>Política de Cookies</h1>
+        <p>El nostre lloc web utilitza cookies per millorar l'experiència de l'usuari, analitzar l'ús del lloc i oferir contingut personalitzat.</p>
+
+        <h2>Què són les cookies?</h2>
+        <p>Les cookies són petits arxius que es guarden al dispositiu de l'usuari quan visita un lloc web. Ens ajuden a recordar preferències i millorar el servei.</p>
+
+        <h2>Tipus de cookies que utilitzem</h2>
+        <ul>
+            <li>Cookies estrictament necessàries per al funcionament del lloc web.</li>
+            <li>Cookies d'analítica per comprendre l'ús del nostre lloc.</li>
+            <li>Cookies de personalització per oferir contingut adaptat.</li>
+        </ul>
+
+        <h2>Gestió de cookies</h2>
+        <p>L'usuari pot acceptar o rebutjar les cookies en qualsevol moment utilitzant la configuració del navegador o la casella següent.</p>
+
+        <div class="actions">
+            <label>
+                <input type="checkbox" id="acceptPrivacy" class="Check">
+                Accepto la política de privacitat
+            </label>
+            <br>
+            <button type="button" onclick="checkPrivacy()">Confirmar</button>
+        </div>
+    </div>
+    </main>
+
+        <!--Footer con acceso a las redes sociales y paginas menos importantes (Section Inferior)-->
+    <footer class="Footer">
+        <section class="Xarxes">
+            <div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/genshinimpact/">
+                    <img src="/Icons/Instagram.png" alt="Instagram" />
+                    </a>
+                </div>
+    
+                <div class="social-item">
+                    <a href="https://www.twitch.tv/genshinimpactofficial">
+                    <img src="/Icons/Twitch.png" alt="Twitch" />
+                    </a>
+                </div>
+    
+                <div class="social-item">
+                  <a href="https://www.youtube.com/@GenshinImpact">
+                  <img src="/Icons/Youtube.png" alt="YouTube" />
+                  </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="Politiques">
+        
+            <div>
+                <div class="social-item">
+                    <a href="/Politicas_Questionarios/Politica_Privadesa.html">
+                    <h3>Politica de Privadesa</h3>
+                    </a>
+                </div>
+
+                <div class="social-item">
+                  <a href="/Politicas_Questionarios/Politica_Cookies.html">
+                  <h3>Politica de Cookies</h3>
+                  </a>
+                </div>
+      
+            </div>
+    
+        </section>
+        <section class="Formularis">
+        
+            <div>
+                <div class="social-item">
+                  <a href="/FAQ.html">
+                  <h3>FAQ</h3>
+                  </a>
+                </div>
+
+                <div class="social-item">
+                    <a href="/Politicas_Questionarios/Formulari_Contacte.html">
+                    <h3>Contacta amb nosaltres</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        function checkPrivacy() {
+            const checkbox = document.getElementById('acceptPrivacy');
+            if(checkbox.checked){
+                alert("Política de cookies acceptada.");
+            } else {
+                alert("Has de marcar la casella per continuar.");
+            }
+        }
+    </script>
+
+</body>
+</html>

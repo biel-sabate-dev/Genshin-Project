@@ -1,0 +1,189 @@
+        h1 {
+            color: #222;
+        }
+        .content {
+            background-color: #0e0d2b;
+            padding: 20px;
+        }
+        .actions {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .actions input {
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #0e0d2b;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            background-color: #121038;
+            display: flex;
+            align-items: center;
+            padding: 0 2rem;
+            gap: 1rem;
+            z-index: 100;
+        }
+
+        nav {
+            margin-left: auto;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 2.5%;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 1%;
+        }
+
+        .Check {
+            margin-top: 2.5%;
+        }
+
+        /*Header/Navbar*/
+.Logo img {
+  width: 180px;
+}
+
+.ElementosHeader {
+  width: 3vw;
+  height: auto;
+  min-width: 30px;
+}
+
+.ElementosContainer {
+  display: flex;
+  gap: 2vw;
+  margin-left: 140px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.NavBar {
+  background-color: #12154b;
+  padding: 8px 14px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/*Footer*/
+.Footer {
+  background-color: #12154b;
+  height: 25vh;
+  margin-top: 4%;
+}
+
+.Xarxes {
+  background-color: #121038;
+  position: relative;
+  top: 7.5%;
+  left: 5%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Xarxes div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.social-item {
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.social-item img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.Politiques {
+  background-color: #121038;
+  position: relative;
+  top: -77%;
+  left: 37%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Politiques div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.Formularis {
+  background-color: #121038;
+  position: relative;
+  top: -162%;
+  left: 69%;
+  border: 1px solid aquamarine;  
+  border-radius: 15px;
+  height: 85%;
+  width: 25%;
+  padding: 2.5%;
+}
+
+.Formularis div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 6.3%;
+}

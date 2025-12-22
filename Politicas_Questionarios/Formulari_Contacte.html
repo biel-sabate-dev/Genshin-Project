@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Contacto</title>
+    <link rel="stylesheet" href="StylesContacte.css">
+</head>
+<body>
+
+    <!--Header con elementos decorativos y Navbar-->
+<header>
+  <div class="Logo">
+    <img src="/Personajes/Paimon.webp">
+  </div>
+
+  <div class="ElementosContainer">
+    <img class="ElementosHeader" src="/Personajes/Pyro.png">
+    <img class="ElementosHeader" src="/Personajes/Hydro.webp">
+    <img class="ElementosHeader" src="/Personajes/Anemo.webp">
+    <img class="ElementosHeader" src="/Personajes/Electro.png">
+    <img class="ElementosHeader" src="/Personajes/Dendro.webp">
+    <img class="ElementosHeader" src="/Personajes/Cryo.webp">
+    <img class="ElementosHeader" src="/Personajes/Geo.webp">
+  </div>
+
+  <!--NavBar a las 6 paginas prinicpales-->
+  <nav>
+    <a href="/Pagina_Principal/Pàgina_Personajes.html" class="NavBar">Personajes</a>
+    <a href="/Paginas_Build/Pagina_Builds.html" class="NavBar">Builds</a>
+    <a href="/Paginas_Equipos/Pagina_Equipos.html" class="NavBar">Equipos</a>
+    <a href="/Politicas_Questionarios/Politica_Privadesa.html" class="NavBar">P. Privacitat</a>
+    <a href="/Politicas_Questionarios/Politica_Cookies.html" class="NavBar">P. Cookies</a>
+    <a href="/Politicas_Questionarios/Formulari_Contacte.html" class="NavBar">Contactar</a>
+  </nav>
+</header>
+
+    <main>
+    <!-- TABLA DE SERVICIOS -->
+    <table>
+        <tr>
+            <th colspan="4">Servicios Disponibles</th>
+        </tr>
+        <tr>
+            <th>Misión de Arconte Completa</th>
+            <th>Farmeo de Personaje nivel 90</th>
+            <th>Farmeo de Artefactos 1 semana</th>
+            <th>Farmeo de Talentos nivel 8</th>
+        </tr>
+        <tr>
+            <td class="price">25$</td>
+            <td class="price">50$</td>
+            <td class="price">25$</td>
+            <td class="price">50$</td>
+        </tr>
+    </table>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <form>
+        <h2>Contacto</h2>
+
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    </main>
+
+    <!--Footer con acceso a las redes sociales y paginas menos importantes (Section Inferior)-->
+    <footer class="Footer">
+        <section class="Xarxes">
+            <div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/genshinimpact/">
+                    <img src="/Icons/Instagram.png" alt="Instagram" />
+                    </a>
+                </div>
+    
+                <div class="social-item">
+                    <a href="https://www.twitch.tv/genshinimpactofficial">
+                    <img src="/Icons/Twitch.png" alt="Twitch" />
+                    </a>
+                </div>
+    
+                <div class="social-item">
+                  <a href="https://www.youtube.com/@GenshinImpact">
+                  <img src="/Icons/Youtube.png" alt="YouTube" />
+                  </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="Politiques">
+        
+            <div>
+                <div class="social-item">
+                    <a href="/Politicas_Questionarios/Politica_Privadesa.html">
+                    <h3>Politica de Privadesa</h3>
+                    </a>
+                </div>
+
+                <div class="social-item">
+                  <a href="/Politicas_Questionarios/Politica_Cookies.html">
+                  <h3>Politica de Cookies</h3>
+                  </a>
+                </div>
+      
+            </div>
+    
+        </section>
+        <section class="Formularis">
+        
+            <div>
+                <div class="social-item">
+                  <a href="/FAQ.html">
+                  <h3>FAQ</h3>
+                  </a>
+                </div>
+
+                <div class="social-item">
+                    <a href="/Politicas_Questionarios/Formulari_Contacte.html">
+                    <h3>Contacta amb nosaltres</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+</footer>
+
+</body>
+</html>
